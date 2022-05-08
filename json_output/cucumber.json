@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-07T18:06:34.433Z",
+        "line": 21,
+        "name": "Login scenario with example keyword",
+        "description": "",
+        "id": "freecrm-login-scenario;login-scenario-with-example-keyword;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2814604300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7958300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "title of login page is free crm",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5384708600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.LoginSteoDefination.user_enters_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57129800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".user\\-display\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CPU-1260\u0027, ip: \u0027192.168.43.242\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\teerthp\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fb3cedd81f70b0152f046c341c23b9d\n*** Element info: {Using\u003dclass name, value\u003duser-display}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefination.LoginSteoDefination.user_is_on_home_page(LoginSteoDefination.java:54)\r\n\tat ✽.user is on home page(file:///C:/Users/teerthp/eclipse-workspace/FreecrmBDDframework/src/main/java/Feature/login.feature:17)\r\n",
+              "duration": 2140199600,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-07T18:06:44.947Z",
+        "line": 22,
+        "name": "Login scenario with example keyword",
+        "description": "",
+        "id": "freecrm-login-scenario;login-scenario-with-example-keyword;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2287587400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6983800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "title of login page is free crm",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2465625000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters \"freecrm990@yopmail.com\" and \"1234@Abcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "freecrm990@yopmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "1234@Abcd",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefination.LoginSteoDefination.user_enters_user_name_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54821100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".user\\-display\"}\n  (Session info: chrome\u003d101.0.4951.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CPU-1260\u0027, ip: \u0027192.168.43.242\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\teerthp\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e79f17eabe3c5e760ba5487aed436ae9\n*** Element info: {Using\u003dclass name, value\u003duser-display}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefination.LoginSteoDefination.user_is_on_home_page(LoginSteoDefination.java:54)\r\n\tat ✽.user is on home page(file:///C:/Users/teerthp/eclipse-workspace/FreecrmBDDframework/src/main/java/Feature/login.feature:17)\r\n",
+              "duration": 2060713400,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepDefination.LoginSteoDefination.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "freeCRM Login scenario",
+    "description": "",
+    "id": "freecrm-login-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Feature/login.feature",
+    "tags": []
+  }
+]
