@@ -15,3 +15,4 @@ Then user click save button
 Examples: 
 	|username|password|firstname|lastname|
 	|freecrm990@yopmail.com|1234@Abcd|Test|1|
+	|freecrm990@yopmail.com|1234@Abcd|Test||
